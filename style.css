@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: solid black;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+div:hover{
+    background-color: blue;
+    color: #414141;
+    font-size: medium;
+
+}
+div:active{
+    background-color: red;
+}
